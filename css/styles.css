@@ -1,0 +1,1422 @@
+/* 
+    Created on : Jan 24, 2018, 11:11:03 AM
+    Author     : Tilini Rasara
+*/
+
+
+/****************************************
+*************  Login Page ***************
+*****************************************/
+
+#login-body{
+    background-image: url(../img/CAN1493_N12_webHERO.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.login_header{
+   width:1362px;
+   height:100px;
+   margin-top: -15px;
+   margin-right: -17px;
+   margin-left:  -7px;
+   background-color:rgba(128,128,128,0.9);
+  
+}
+.login_logo{
+    margin-left: 100px;
+   margin-top: 10px;
+}
+.login_logo1{
+    margin-left: 100px;
+   margin-top: 10px;
+   opacity: 50px;
+}
+
+#login-wrapper{
+    background-color:rgba(128,128,128,0.7);
+    width: 400px;
+    height:269px;
+    position: fixed;
+    z-index: 5;
+    top: 200px;
+    right: 480px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+#login-wrapper h4{
+    color: white;
+    margin-left: -200px;
+}
+#login-wrapper input[type=text], #login-wrapper input[type=password]{
+    padding-left: 5px;
+    width: 270px;
+    height: 27px;
+    outline: none;
+    border: #333333 solid 1px;
+    border-radius: 1px;
+    background-color:rgba(128,128,128,0.9);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+#login-wrapper input[type=text]::-webkit-input-placeholder, #login-wrapper input[type=password]::-webkit-input-placeholder { 
+    color: white;
+}
+#login-wrapper input[type=submit]{
+    margin-top: 20px;
+    width: 100px;
+    height: 27px;
+    background: -webkit-linear-gradient(top, #c9de96 0%,#8ab66b 44%,#398235 100%);
+    border-radius: 1px;
+    outline: none;
+   color: black;
+}
+
+#login-wrapper input[type=submit]:hover{
+    background: -webkit-linear-gradient(top, #c9de96 0%,#8ab66b 99%,#398235 100%);
+}
+.msg{
+    color: red;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.usernames{
+    width: 270px;
+    height: 28px;
+    outline: none;
+    border: #333333 solid 1px;
+    border-radius: 1px;
+    background-color:rgba(128,128,128,0.9);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    color: white;
+}
+/**************************************/
+
+
+
+
+
+/****************************************
+***********  DashBoard *************
+*****************************************/
+
+/*Header*/
+.dash-header1{
+   width:1362px;
+   height:110px;
+   margin-top: -15px;
+   margin-right: -17px;
+   margin-left:  -7px;
+   background-color:#4F4F4F;
+}
+.dash-header{
+   width:1362px;
+   height:100px;
+   margin-top: -15px;
+   margin-right: -17px;
+   margin-left:  -7px;
+   background-color:#4F4F4F;
+}
+#main_body{
+    background-image: url(../img/grey-background-hd-564.jpg);
+    background-repeat:no-repeat;
+}
+.dash-header ul{
+    margin: 0;
+    margin-top: -25px;
+    margin-right: 40px;
+} 
+.dash-header li{
+    float:right;
+    list-style: none;
+    margin: -5px 0 12px 0;
+}
+.dash-header li a:hover{
+    color:  dodgerblue; 
+}
+.dash-header li a{
+    color:white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    padding-bottom: 8px;
+    line-height: 35px;
+    padding-left: 30px;
+}
+.content h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 28px;
+    color: #00008a;
+}
+.content h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: #ababab;
+}
+.module-title{
+   margin-right: 200px;
+   padding-top: 0px;
+}
+.module-title h1{
+color:darkslategray;
+ margin-left: 10px;
+ margin-top: 10px;
+ color: yellowgreen;
+ font-size:23px;
+}
+ /***************************dash board pictures******************/
+.tbl-dashboard{
+   margin-left: 300px;
+   margin-top: 50px;  
+}
+.tbl-dashboard a{
+    text-decoration: none;
+}
+.img-2{
+   width: 200px;
+   height: 120px; 
+   margin-left:05px;
+}
+.img-1{
+   width: 200px;
+   height: 120px;
+    margin-left:5px;
+}
+.img-3{
+   width: 200px;
+   height: 120px;
+   margin-left: -20px;
+}
+.img-7{
+   width: 200px;
+   height: 120px;
+   margin-left:5px;
+}
+/*********************going pages************/
+ .go_billing{
+     width:200px;
+     height:50px;
+     background-color:#4F4F4F;
+     margin-top: -90px;
+     position: absolute;
+     padding-top: -9px;
+     transition: 1s ease;
+ }
+ .go_billing:hover{
+  -webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+transition: 1s ease;
+ }
+ .img-billing{
+     margin-left: -90px;
+     margin-top: -1px;
+ }
+ .go_billing p{
+     margin-top: -38px;
+     margin-left: 100px;
+     color: white;
+     font-family:monospace;
+     font-size: 18px;
+     position: absolute;
+ }
+ .go_patient{
+     width:200px;
+     height:50px;
+     background-color:#4F4F4F;
+     margin-top: -90px;
+     position: absolute;
+     padding-top: -9px;
+     transition: 1s ease;
+ }
+ .go_patient p{
+     margin-top: -35px;
+     margin-left: 80px;
+     color: white;
+     font-family:monospace;
+     font-size: 18px;
+     position: absolute;
+ }
+ .img-patient{
+     margin-top: 6px;
+     margin-left: -100px;
+ }
+ .go_patient:hover{
+  -webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+transition: 1s ease;
+ }
+ .go_staff{
+     width:200px;
+     height:50px;
+     background-color:#4F4F4F;
+     margin-top: -90px;
+     position: absolute;
+     padding-top: -9px;
+     transition: 1s ease;
+ }
+ .go_staff p{
+     margin-top: -32px;
+     margin-left: 90px;
+     color: white;
+     font-family:monospace;
+     font-size: 18px;
+     position: absolute;
+ }
+ .img-staff{
+      margin-top: 6px;
+     margin-left: -100px;
+ }
+ .go_staff:hover{
+     -webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+transition: 1s ease;
+ }
+ .go_room{
+     width:200px;
+     height:50px;
+     background-color:#4F4F4F;
+     position: absolute;
+     transition: 1s ease;
+     padding-top: -9px;
+     margin-top: -90px;
+    
+ }
+ .go_room p{
+     margin-top: -42px;
+     margin-left: 75px;
+     color: white;
+     font-family:monospace;
+     font-size: 17px;
+     position: absolute;
+ }
+ .img-room{
+      margin-top: 6px;
+     margin-left: -117px;
+ }
+ .go_room:hover{
+   -webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+transition: 1s ease;  
+ }
+/**************Modle content************************/
+
+#module-content{
+    width:700px;
+    margin-left: 280px;
+    padding: 10px;
+    background-color:#EDEDED;
+    border-radius: 1px;
+    display: none;
+    position:absolute;
+    margin-top: 100px;
+    border-top: #ababab solid 2px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+}
+.module-content1{
+     width:900px;
+    margin-top: 50px;
+    margin-left: 200px;
+    padding: 10px;
+    background-color:  #EDEDED;
+    border-radius: 1px;
+}
+#module-content input, #Module-content textArea{
+    margin-top: 5px;
+}
+#module-content input{
+     width:200px;
+    height: 30px;
+    border:#ababab solid 1px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
+}
+.module-content1 input{
+     width:200px;
+    height: 28px;
+    border:#ababab solid 1px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
+    margin-right: 7px;
+}
+.newpatient{
+    border:none;
+    background: -webkit-linear-gradient(top, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 84%);
+    color:black;
+    width:120px;
+    height:30px;
+    padding:8px 5px 8px 5px;
+    border-radius:3px;
+    margin-bottom: 5px;
+    top:214px;
+    position: absolute;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+}
+.newpatient:hover{
+background: -webkit-linear-gradient(top, rgba(222,239,255,1) 0%,rgba(152,190,222,1) 100%);
+}
+#module-content textarea{
+    width:200px;
+    height: 40px;
+    border:#ababab solid 1px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
+}
+#module-content input:focus, #module-content textarea:focus{
+    border: #333333 solid 1px;
+    outline: none;
+}
+#module-content input:hover, #module-content textarea:hover{
+     border: #333333  solid 1px;
+}
+
+.titleInputdetails{
+    font-family: sans-serif;
+    font-weight:bold;
+    color: #333333;
+    border-bottom: #adadad solid 1px;
+    margin-top: 5px;
+}
+.module-content1 p{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 18px;
+    border-bottom: #adadad solid 1px;
+    margin-top: -27px;
+    margin-left: 61px;
+}
+.module-content1 input[type=submit]{
+    border:none;
+    background-color: #cccccc;
+    color:black;
+    width:80px;
+    height:30px;
+    padding:8px 5px 8px 5px;
+    border-radius:5px;
+    float:right;
+    margin-bottom: 5px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    background: -webkit-linear-gradient(top, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 84%);
+}
+ 
+#module-content input[type=submit]:hover{
+    border:none;
+}
+#module-content input[type=submit]:focus{
+    outline:none;
+}
+.save-patient{
+    background: -webkit-linear-gradient(top, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 84%);
+    border:none;
+    color:black;
+    width:200px;
+    height:30px;
+    border-radius:5px;
+    margin-bottom: 5px;
+    margin-top:0px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    position: absolute;
+    margin-left :131px;
+}
+.save-patient:hover{
+background: -webkit-linear-gradient(top, rgba(222,239,255,1) 0%,rgba(152,190,222,1) 100%);
+}
+.cancel-save{
+    border:none;
+    color:black;
+    width:200px;
+    height:30px;
+    padding:8px 5px 8px 5px;
+    border-radius:3px;
+    margin-bottom: 5px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    padding-top: -400px;
+    margin-left: 383px;
+    background: -webkit-linear-gradient(top, #febbbb 0%,#fe9090 45%,#ff5c5c 100%);
+}
+.cancel-save:hover{
+background: -webkit-linear-gradient(top, rgba(254,187,187,1) 0%,rgba(254,144,144,1) 92%,rgba(255,92,92,1) 100%);
+}
+/*************************************************/
+
+/**************Search patient****************/
+.tbl_result{
+    width:100%;
+    padding: 5px;
+    line-height: 37px;
+    
+}
+.tbl_result th{
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: white;
+} 
+.tbl_result td{
+    border-bottom:#adadad solid 1px;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.tbl_result td:hover{
+    background-color: whitesmoke;
+}
+.search-patient{
+    float: right;
+}
+.btn_update{
+   border-radius: 3px;
+   text-decoration: none;
+   width: 90px;
+   color:black;
+   padding-top: 7px;
+   padding-left: 14px;
+   padding-right: 14px;
+   padding-bottom: 6px;
+   background: -webkit-linear-gradient(top, #c9de96 0%,#8ab66b 99%,#398235 100%);
+   box-shadow: 1px 2px 4px rgba(0, 0, 0,0.3);
+}
+.btn_update:hover{
+    background: -webkit-linear-gradient(top, #c9de96 0%,#8ab66b 44%,#398235 100%);
+}
+.btn_delete{
+    border-radius: 3px;
+   text-decoration: none;
+   width: 90px;
+   color:black;
+   padding-top: 7px;
+   padding-left: 14px;
+   padding-right: 14px;
+   padding-bottom: 6px;
+   background: -webkit-linear-gradient(top, #fcfff4 0%,#dfe5d7 10%,#b3bead 100%);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0,0.4);
+}
+.btn_delete:hover{
+    color:red;
+}
+/****************************************************************/
+
+/************************Staff***********************/
+.module-content3{
+    width:672px;
+    margin-top: 120px;
+    margin-left: 14px;
+    padding: 10px;
+    background-color: #EDEDED;
+    border-radius: 1px;
+}
+.module-content3 p{
+    font-family:sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight:bolder;
+    border-bottom: #adadad solid 1px;
+    margin-top: -30px;
+    margin-left: 57px;
+}
+.module-content3 button{
+    border:none;
+    background: -webkit-linear-gradient(top, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 84%);
+    color:black;
+    width:180px;
+    height:30px;
+    padding:8px 5px 8px 5px;
+    border-radius:3px;
+    margin-bottom: 5px;
+    position:absolute;
+    margin-top:52px; 
+    margin-left: 464px;
+
+}
+.module-content3 button:hover{
+    background: -webkit-linear-gradient(top, rgba(222,239,255,1) 0%,rgba(152,190,222,1) 100%);
+}
+.tbl_doctors{
+    width:565px;
+    margin-top: 45px;
+    line-height: 20px;
+}
+.tbl_doctors th{
+    padding:13px;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-left: 2px;
+}
+.tbl_doctors td{
+    border-bottom:#adadad solid 1px;
+    padding:5px;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-left: 11px;
+}
+.tbl_doctors   th{
+    background-color:whitesmoke;
+}
+.tbl_doctors tr:hover{
+     background-color:whitesmoke;
+}
+
+.add_doctor{
+   position: absolute;
+   background-color: -webkit-linear-gradient(top, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 84%);
+}
+#nic-descriiptor{
+    border-bottom: none !important;
+    font-size: 11px;
+    color:red !important;
+    margin-bottom: 0px;
+    margin-top: 0px !important;
+    
+}
+.tbl_doctors a{
+    color:black;
+    text-decoration: none;
+}
+#dlg{
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    z-index: 5;
+    top: 320px;
+    left: 250px;
+    background-color: #EDEDED;
+    display: none;
+    border-top:#ababab solid 2px;
+    margin-left: -33px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color:#333333;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+}
+#dlg p{
+color: black;
+font-weight:bolder;
+font-family: sans-serif;
+font-size: 14px;
+border-bottom: #ababab solid 1px;
+margin-left: 10px;
+margin-top: 20px;
+}
+#dlg input[type=text]{
+    width: 200px;
+    height: 20px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
+    border:#ababab solid 1px;
+}
+.tbl_savestaff{
+    width: 400px;
+    height: 200px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+#dlg input[type=submit]{
+ width:100px;
+ height: 24px;
+ margin-left: 200px;
+ border-radius: 5px;
+ margin-top: 10px;
+ background: -webkit-linear-gradient(top, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 84%);
+}
+#dlg input[type=submit]:hover{
+    background: -webkit-linear-gradient(top, rgba(222,239,255,1) 0%,rgba(152,190,222,1) 100%);
+}
+#dlg input[type=date]{
+    width: 200px;
+    height: 20px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
+    border:#ababab solid 1px;
+}
+#dlg button{
+    width:100px;
+    height: 24px;
+    position: absolute;
+    margin-top: -26px;
+    margin-left:310px;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(top, #febbbb 0%,#fe9090 45%,#ff5c5c 100%);
+}
+#dlg button:hover{
+   background: -webkit-linear-gradient(top, rgba(254,187,187,1) 0%,rgba(254,144,144,1) 92%,rgba(255,92,92,1) 100%); 
+}
+
+/*******************Appoinment form*******************************/
+
+.appoinment-icon{
+    position: absolute;
+    margin-top: -544px;
+    transition: transform 1s;
+    margin-left: 1212px;
+}
+.appoinment-icon:hover{
+transform: skew(-10deg);
+}
+.appoinment-icon:hover .tooltiptext{
+visibility: visible;
+}
+.appoinment-icon .tooltiptext{
+    visibility: hidden;
+    width: 145px;
+    background-color:white;
+    color: #333333;
+    border: #ababab solid 1px;
+    border-radius: 2px;
+    text-align: center;
+    padding: 5px 0;
+   /* Position the tooltip */ 
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: -10px;
+}
+#appoinment-form{
+    position: absolute;
+    background-color: #E6E6E6;
+    width: 400px;
+    height: 250px;
+    margin-top: -228px;
+    margin-left: 844px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .4);
+    border-top: #adadad solid 1px;
+    display: none;
+}
+#appoinment-form p{
+    font-size: 17px;
+    font-weight: bolder;
+    margin-left: 53px;
+    border-bottom:#ababab solid 1px;
+    margin-top: -30px;
+}
+.appoiment{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#appoinment-form input{
+    width: 189px;
+    height: 25px;
+    border: #d2d6de solid 1px;
+    padding-left: 10px;
+    margin-top: -12px;
+    position:absolute;
+}
+#appoinment-form input[type=submit]{
+ width:150px;
+ height: 27px;
+ margin-left: 194px;
+ border-radius: 5px;
+ margin-top: 3px;
+ background: -webkit-linear-gradient(top, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 84%);
+}
+#appoinment-form input[type=submit]:hover{
+    background: -webkit-linear-gradient(top, rgba(222,239,255,1) 0%,rgba(152,190,222,1) 100%);
+}
+.appoinment_combopatient{
+    width: 200px;
+    height: 26px;
+    background-color: white;
+    border: #d2d6de solid 1px;
+    position: absolute;
+    margin-left: 169px;
+    margin-top: -68px;
+}    
+.appoinment_combostaff{
+    width: 200px;
+    height: 26px;
+    background-color: white;
+    border: #d2d6de solid 1px;
+    position: absolute;
+    margin-left: 169px;
+    margin-top: -33px;
+}
+.tbl_appoinment{
+    font-family: sans-serif;
+    font-size: 14px; 
+    line-height: 30px;
+    padding-left: 24px;
+}
+.Aclose_Icon{
+    position: absolute;
+    margin-left: 374px;
+    margin-top: 13px;
+}
+.display_appoinments{
+    width:582px;
+    margin-top: -546px;
+    margin-left: 723px;
+    padding: 10px;
+    background-color: #EDEDED;
+    border-radius: 1px;
+}
+.display_appoinments p{
+    width:450px;
+    font-family:sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight:bolder;
+    border-bottom: #adadad solid 1px;
+    margin-top: 26px;
+    margin-left: 11px;
+}
+.tbl_displayappoinment{
+    width:588px;
+    margin-top: 45px;
+    line-height: 25px;
+    margin-left: -5px;
+   
+}
+.tbl_displayappoinment td{
+padding-left: 32px;
+border-bottom:#adadad solid 1px;
+}
+.tbl_displayappoinment th{
+    font-family: sans-serif;
+    font-size: 14px;
+    background: rgba(192,192,192,0.3)
+}
+.appoinmentDate{
+    background: rgba(0,0,255,0.1);
+}  
+.doctorName{
+    background: rgba(12,192,192,0.1);
+}
+/****save patient form******/
+.tbl-patient{
+    margin-top:-51px;
+}
+/******************************/
+
+/******patinet dicese *********/
+#save-patientdicies{
+    width: 334px;
+    height:221px;
+    margin-top: 155px;
+    margin-left: 213px;
+    padding: 13px;
+    background-color: #E6E6E6;
+    border-top: #adadad solid 1px;
+    position:absolute;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .4);
+    display: none;
+}
+#save-patientdicies input{
+    width: 178px;
+    height: 25px;
+    border: #ababab solid 1px;
+    padding-left: 10px;
+}
+#save-patientdicies textarea{
+    width:175px;
+    border:#ababab solid 1px;
+    padding-left: 10px;
+}
+#save-patientdicies input:focus, #save-patientdicies textarea:focus{
+    border: darkslategray solid 1px;
+    outline: none;
+}
+#save-patientdicies input:hover, #save-patientdicies textarea:hover{
+     border: darkslategray  solid 1px;
+}
+#save-patientdicies p{
+    font-family: sans-serif;
+    border-bottom: #adadad solid 1px;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+#save-patientdicies input[type=submit]{
+    border:none;
+    background: -webkit-linear-gradient(top, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 84%);
+    width:126px;
+    height:30px;
+    border-radius:3px;
+    margin-bottom: 5px;
+    margin-left: 110px;
+    margin-top: -7px;
+    position: absolute;
+}
+.save_pd_close_Icon{
+    position: absolute;
+    margin-left: 318px;
+    margin-top: 2px;
+}
+#save-patientdicies input[type=submit]:hover{
+     background: -webkit-linear-gradient(top, rgba(222,239,255,1) 0%,rgba(152,190,222,1) 100%);
+}
+.combopatient_pd{
+    width: 188px;
+    height: 25px;
+    border: #ababab solid 1px;
+    padding-left: 10px;
+    margin-left: 108px;
+    margin-top: 6px;
+    position: absolute;
+}
+.tbl-savepatintdecis{
+    width:200px;
+    height: 150px;
+    margin-left: 20px;
+}
+.Patient_dciases{
+    width:487px;
+    margin-left: 37px;
+    padding: 10px;
+    background-color: #E6E6E6;
+    border-radius: 1px;
+    position:absolute;
+    margin-top: 64px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .4);
+}
+.Patient_dciases p{
+    margin-top: -26px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+    border-bottom: #ababab solid 1px;
+    margin-left: 50px;
+}
+.showsavedecease{
+    width: 130px;
+    height: 29px;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(top, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 84%);
+    margin-top: 53px;
+    margin-left: 355px;
+    position: absolute;
+}
+.showsavedecease:hover{
+background: -webkit-linear-gradient(top, rgba(222,239,255,1) 0%,rgba(152,190,222,1) 100%);
+}
+.tbl_decaeses{
+     margin-top: 43px;
+     width: 483px;
+}
+.tbl_decaeses th{
+    background-color:#cccccc;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-left: 25px;
+    padding: 12px;
+}
+.tbl_decaeses td{
+    border-bottom:#adadad solid 1px;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-left: 25px;
+    padding: 12px;
+}
+/************* Treatements **********/
+.treatements{
+   width:720px;
+    margin-left: 574px;
+    margin-top: 64px;
+    padding: 10px;
+    background-color: #E6E6E6;
+    border-radius: 1px;
+    position:absolute;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .4);  
+}
+.treatements p{
+    margin-top: -28px;
+    margin-left: 45px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+    border-bottom: #ababab solid 1px;
+}
+
+.tbl_treatements td{
+    border-bottom:#adadad solid 1px;
+    padding:5px;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-left: 25px;
+    line-height: 30px;
+}
+.tbl_treatements{
+    width:734px;
+    margin-top: 46px;
+    padding:10px;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 44px;
+}
+.tbl_treatements th{
+    background-color: #cccccc;
+    }
+#save_Treatements{
+    width: 355px;
+    height: 289px;
+    background-color:#E6E6E6; 
+    margin-left:923px ;
+    margin-top: 160px;
+    border-top: #adadad solid 1px;
+    position:absolute;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .4);
+    display: none;
+    padding: 7px;
+}
+.tbl-savetreatements{
+    margin-left: 10px;
+    width: 350px;
+    line-height: 24px;
+    padding: 10px;
+    
+}
+.tbl-savetreatements input[type=text]{
+    width: 170px;
+    height: 25px;
+    border: #ababab solid 1px;
+    margin-left: 20px;
+}
+.tbl-savetreatements input[type=date]{
+    width: 170px;
+    height: 25px;
+    border: #ababab solid 1px;
+    margin-left: 20px;
+}
+.tbl-savetreatements textarea{
+    width:170px;
+    border:#ababab solid 1px;
+    margin-left: 20px;
+}
+.tbl-savetreatements input[type=submit]{
+    width: 130px;
+    height: 29px;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(top, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 84%);
+    margin-top: 11px;
+    margin-left: 159px;
+    position: absolute;
+}
+.tbl-savetreatements input[type=submit]:hover{
+background: -webkit-linear-gradient(top, rgba(222,239,255,1) 0%,rgba(152,190,222,1) 100%);
+}
+#save_Treatements p{
+    font-family: sans-serif;
+    border-bottom: #adadad solid 1px;
+    margin-top: 20px;
+    font-weight: bolder;
+    margin-left: 6px;
+    width: 339px;
+}
+.addTreatment{
+    width: 130px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 585px;
+    margin-top: 58px;
+    background: -webkit-linear-gradient(top, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 84%);
+}
+.addTreatment:hover{
+background: -webkit-linear-gradient(top, rgba(222,239,255,1) 0%,rgba(152,190,222,1) 100%);
+}
+.saveTreatment_closeIcon{
+    position: absolute;
+    margin-left: 333px;
+    margin-top: 18px;
+}
+.combo_staffmember_t{
+    width: 176px;
+    height: 25px;
+    border: #ababab solid 1px;
+    margin-left: 161px;
+    position: absolute;
+    margin-top: 174px;
+}
+.combo_patientdecease{
+     width: 176px;
+    height: 25px;
+    border: #ababab solid 1px;
+    margin-left: 160px;
+    position: absolute;
+    margin-top: 142px;
+}
+/*********************************************/
+.usermodule_body{
+    background-image: url(../img/grey-background-hd-564.jpg);
+    width: 1320px;
+    height: 720px;
+    background-repeat: no-repeat;
+}
+/**************Room Availability****************************************/
+.show_addroom{
+    width: 130px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 468px;
+    margin-top: 3px;
+    background: -webkit-linear-gradient(top, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 84%);   
+}
+.show_addroom:hover{
+ background: -webkit-linear-gradient(top, rgba(222,239,255,1) 0%,rgba(152,190,222,1) 100%);   
+}
+.rooms-booking{
+    width:603px;
+    margin-left: 28px;
+    padding: 10px;
+    background-color:#EDEDED;
+    border-radius: 1px;
+    position:absolute;
+    margin-top: 112px;
+}
+.rooms-booking p{
+    width: 645px;
+    border-bottom: #ababab solid 1px;
+    font-family: sans-serif;
+    color:black;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    margin-top: -23px;
+    margin-left: 50px;
+    position: absolute;
+}
+.room-schedule{
+    width:582px;
+    margin-left: 674px;
+    padding: 10px;
+    background-color:#EDEDED;
+    border-radius: 1px;
+    position:absolute;
+    margin-top: 112px;
+}
+.room-schedule p{
+    width: 645px;
+    border-bottom: #ababab solid 1px;
+    font-family: sans-serif;
+    color:black;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    margin-top: -28px;
+    margin-left: 64px;
+    position: absolute;
+}
+.tbl_roomschedule{
+    width:589px;
+    padding:13px;
+    margin-top: 9px;
+    line-height: 41px;
+}
+.tbl_roomschedule td{
+   padding-left: 28px;
+}
+.tbl_roomschedule th{
+    width: 200px;
+    height: 45px;
+    padding-left: 5px;
+    background: rgba(192,192,192,0.3)
+}
+.tbl_rooms{
+    width: 602px;
+    margin-left: 0px;
+    margin-top: 21px;
+}
+.tbl_rooms th{
+    width:140px;
+    background-color: #d2d6de;
+    height: 44px;
+    padding-right: 24px;
+}
+.tbl_rooms td{
+    padding-left:25px;
+    padding-top: 10px;
+    height: 42px;
+}
+.tbl_rooms input[type=checkbox]{
+    color: blue;
+}
+.btn_book{
+    width:70px;
+    height:25px;
+    border-radius: 5px;
+  background: -webkit-linear-gradient(top, rgba(201,222,150,1) 0%,rgba(138,182,107,1) 81%,rgba(57,130,53,1) 100%);
+}
+.btn_book:hover{
+    background: -webkit-linear-gradient(top, #c9de96 0%,#8ab66b 44%,#398235 100%);
+}
+#booking_date{
+    width:360px;
+    height: 240px;
+    margin-left: 500px;
+    padding: 10px;
+    background-color:#EDEDED;
+    border-radius: 1px;
+    position:absolute;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    display: none;
+    margin-top: 250px;
+}
+#booking_date p{
+    border-bottom: #ababab solid 1px;
+    margin-top: -10px;
+    font-family: sans-serif;
+    border-bottom: #adadad solid 1px;
+    margin-top: 10px;
+    font-weight: bolder;
+    margin-left: 6px;
+    width: 339px; 
+}
+#booking_date input[type=datetime-local]{
+    width: 190px;
+    height: 25px;
+    margin-left: 13px;
+    border-radius: 3px;
+    border: #ababab solid 1px;
+    margin-top: 0px;
+}
+.save-booking{
+    width:120px;
+    height: 24px;
+    margin-left: 167px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(top, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 84%);
+} 
+.cancel_booking{
+    margin-left: 332px;
+    margin-top: 10px;
+    position: absolute;
+}
+.save-booking:hover{
+    background: -webkit-linear-gradient(top, rgba(222,239,255,1) 0%,rgba(152,190,222,1) 100%);
+}
+.tbl_savebokking{
+    margin-top: -45px;
+    height: 145px;
+    margin-left: 20px;
+}
+#addRoom{
+    width:350px;
+    height: 240px;
+    margin-left: 297px;
+    padding: 10px;
+    background-color:#EDEDED;
+    border-radius: 1px;
+    position:absolute;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    display: none;
+    margin-top: 189px; 
+}
+#addRoom input{
+    width: 170px;
+    height: 28px;
+}
+#addRoom input[type=submit]{
+    width:110px;
+    height: 24px;
+    border-radius: 5px;
+    margin-left: 170px;
+    margin-top: 11px;
+    background: -webkit-linear-gradient(top, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 84%);
+}
+#addRoom input[type=submit]:hover{
+    background: -webkit-linear-gradient(top, rgba(222,239,255,1) 0%,rgba(152,190,222,1) 100%); 
+}
+#addRoom p{
+    font-family: sans-serif;
+    border-bottom: #adadad solid 1px;
+    margin-top: 10px;
+    font-weight: bolder;
+    margin-left: 6px;
+    width: 339px; 
+}
+.rooms_tbl{
+    margin-left: 20px;
+}
+.combopatient_Room{
+    width: 170px;
+    height: 30px;
+    border: #ababab solid 1px;
+    margin-left: 129px;
+    position: absolute;
+    margin-top: 131px;  
+}
+.cancel_addingroom{
+    margin-top: 9px;
+    margin-left: 335px;
+    position:absolute;
+    width: 15px;
+    height: 15px;
+}
+.cancel_addingroom:hover{
+   box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+}
+.combopatient_boonking{
+    margin-top: 73px;
+    margin-left: 132px;
+    position: absolute;
+    width: 190px;
+    height: 25px;
+}
+.combo_roomno{
+    margin-top: 38px;
+    margin-left: 132px;
+    position: absolute;
+    width: 190px;
+    height: 25px;
+}
+.admitDate{
+    background: rgba(0,0,255,0.1);
+}
+.leavingDate{
+background: rgba(12,192,192,0.1);
+}
+
+/*****************Biilinig module***********/
+.show_InvoItem{
+    width:84px;
+    height:25px;
+    border-radius: 5px;
+    margin-left: 214px;
+    margin-top: -41px;
+  background: -webkit-linear-gradient(top, #c9de96 0%,#8ab66b 44%,#398235 100%);
+}
+.show_InvoItem:hover{
+    background: -webkit-linear-gradient(top, rgba(201,222,150,1) 0%,rgba(138,182,107,1) 81%,rgba(57,130,53,1) 100%);
+}
+.close_InvoiceItem{
+    margin-left: 395px;
+}
+#InvoiceItems_form{
+    width: 403px;
+    height:371px;
+    background-color:#EDEDED;
+    border-top: #adadad solid 2px;
+    margin-top: 198px;
+    margin-left: 229px;
+    padding: 18px;
+    position:absolute;
+    display: none;
+}
+
+#InvoiceItems_form p{
+    font-family:sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight:bolder;
+    border-bottom: #adadad solid 1px;
+    margin-top: -12px;
+    margin-left: 4px;
+}
+.tbl_invoiceitemform{
+    line-height: 38px;
+}
+.tbl_invoiceitemform input[type=text]{
+    width:170px;
+    height:25px;
+}
+.combopatient_bl{
+    width:170px;
+    height:25px;
+}
+.combo_staffmember{
+     width:170px;
+    height:25px;
+}
+.combo_treatement{
+    width:170px;
+    height:25px; 
+}
+.combo_pd{
+    width:170px;
+    height:25px; 
+}
+.invoiceNo{
+    width:170px;
+    height:25px; 
+}
+.comboadmitdate{
+   width:170px;
+   height:25px;  
+   margin-left: -1px;
+}
+.btnsave_newinvItem{
+     width:120px;
+    height:25px;
+    border-radius: 5px;
+    margin-left: 143px;
+    margin-top: 11px;
+    background: -webkit-linear-gradient(top, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 84%);
+}
+.btnsave_newinvItem[type=submit]:hover{
+    background: -webkit-linear-gradient(top, rgba(222,239,255,1) 0%,rgba(152,190,222,1) 100%);
+}
+.newInvoice{
+    width: 350px;
+    height:170px;
+    background-color:#EDEDED;
+    border-top: #adadad solid 2px;
+    margin-top: 104px;
+    margin-left: 48px;
+    padding: 19px;
+    position:absolute;
+}
+.newInvoice p{
+    font-family:sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight:bolder;
+    border-bottom: #adadad solid 1px;
+    margin-top: -22px;
+    margin-left: 55px;
+}
+.tbl_newinvoivefrom{
+    line-height: 32px;
+}
+.tbl_newinvoivefrom input[type=text]{
+    width:170px;
+    height:25px;
+}
+.combopatient_bl{
+    width:170px;
+    height:25px;
+}
+.btnsave_newinv{
+     width:90px;
+    height:25px;
+    border-radius: 5px;
+    margin-left: 106px;
+    margin-top: 11px;
+    background: -webkit-linear-gradient(top, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 84%);
+}
+.btnsave_newinv:hover{
+    background: -webkit-linear-gradient(top, rgba(222,239,255,1) 0%,rgba(152,190,222,1) 100%);
+}
+.showing_invoices{
+    width: 810px;
+    background-color:#EDEDED;
+    border-top: #adadad solid 2px;
+    margin-top: 106px;
+    margin-left: 475px;
+    padding: 18px;
+    position:absolute;
+}
+.showing_invoices p{
+    font-family:sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight:bolder;
+    border-bottom: #adadad solid 1px;
+    margin-top: -28px;
+    margin-left: 57px;
+}
+.tbl_display_invoices{
+    width:847px;
+    line-height: 50px;
+}
+.tbl_display_invoices td{
+  padding-right: 10px;
+}
+.tbl_display_invoices th{
+    width: 200px;
+    height: 45px;
+    
+    background: rgba(192,192,192,0.3)
+}
